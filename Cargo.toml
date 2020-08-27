@@ -1,0 +1,19 @@
+[package]
+name = "itslit"
+version = "0.1.0"
+authors = ["Vinayak Mehta <vmehta94@gmail.com>"]
+license = "Apache-2.0"
+license-file = "LICENSE"
+description = "Stumble upon a lightning talk in a browser near you."
+readme = "README.md"
+homepage = "https://github.com/vinayak-mehta/itslit-rs"
+repository = "https://github.com/vinayak-mehta/itslit-rs"
+keywords = ["cli", "random", "lightning", "talk"]
+categories = ["command-line-utilities"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.7.3"
+opener = "0.4.1"
